@@ -128,7 +128,7 @@ body {
 .site-nav .link.current::after {
   content: '';
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   left: 0;
   display: block;
   width: 100%;
@@ -419,7 +419,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 22px;
+  gap: 10px;
   margin-bottom: 30px;
 }
 
@@ -577,6 +577,7 @@ body {
 .project {
   font-size: 16px;
   line-height: 1.8;
+  color: var(--primary-text-color)
 }
 
 .project-thumb {
